@@ -1,0 +1,29 @@
+/* Fullscreen black background */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+  font-family: "Impact", "Arial Black", sans-serif; /* Bold stretched look */
+  text-align: center;
+}
+
+/* Title */
+#title {
+  font-size: 6vw;
+  margin-bottom: 20px;
+  font-stretch: ultra-expanded;
+}
+
+/* Countdown */
+#countdown {
+  font-size: 15vw;  /* fits phone */
+  letter-spacing: 1vw;
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+  white-space: nowrap;
+}
